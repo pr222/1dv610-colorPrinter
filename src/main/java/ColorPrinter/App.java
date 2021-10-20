@@ -1,8 +1,7 @@
-import DocumentParser.*;
+package ColorPrinter;
 
 public class App {
     public static void main(String[] args) {
-        DocumentParser documentParser = new DocumentParser();
         String TEXT_RESET = "\u001B[0m";
         // String TEXT_RED = "\u001B[31m";
         String TEXT_COLOR = "\u001B[38;5;197m";
@@ -16,5 +15,8 @@ public class App {
         System.out.println(output1);
         System.out.println(output2);
         System.out.println(output3);
+        UI_Console ui = new UI_Console();
+        ColorPrinter printer = new ColorPrinter(ui);
+        printer.start();
     }
 }
