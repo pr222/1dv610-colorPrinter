@@ -3,7 +3,7 @@ package ColorPrinter;
 import java.util.ArrayList;
 
 public class Options {
-    ArrayList<Option> options;
+    private final ArrayList<Option> options;
 
     public Options() {
         this.options = new ArrayList<>();

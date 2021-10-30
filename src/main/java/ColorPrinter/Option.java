@@ -1,8 +1,8 @@
 package ColorPrinter;
 
 public class Option {
-    String option;
-    String selector;
+    private final String option;
+    private final String selector;
 
     public Option(String option, String selector) {
         this.option = option;

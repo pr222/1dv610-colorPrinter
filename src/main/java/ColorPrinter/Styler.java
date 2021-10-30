@@ -1,12 +1,11 @@
 package ColorPrinter;
 
 import DocumentParser.*;
-
 import java.util.ArrayList;
 
 public class Styler {
-    Document document;
-    ArrayList<StyledSentence> styledSentences;
+    private final Document document;
+    private final ArrayList<StyledSentence> styledSentences;
 
     public Styler(Document document) {
         this.document = document;
