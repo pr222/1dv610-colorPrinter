@@ -1,4 +1,9 @@
 # Color Printer
+[Example](https://gitlab.lnu.se/pr222ja/color-printer#main-menu)
+
+[Class Diagram](https://gitlab.lnu.se/pr222ja/color-printer#class-diagram)
+
+[Manage Dependendencies](https://gitlab.lnu.se/pr222ja/color-printer#manage-depencencies)
 
 ## About
 This is a simple console app that will print added input as a list of sentences in different colors depending on the sentence type. Regular sentences ending with a dot are green, questions ending with a questionmark are blue and sentences ending with an exclamation mark are red. 
